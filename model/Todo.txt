@@ -1,4 +1,4 @@
 TODO add the stuff you want others to do:
 
-
+TO Vinayak: Handle 3D part of linear regession, I will try to connect it to api so that we can procced with frontend part of linear regession.
 
