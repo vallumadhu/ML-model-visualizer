@@ -1,7 +1,4 @@
 TODO add the stuff you want others to do:
 
-<<<<<<< HEAD:Todo.txt
-=======
 TO Vinayak: Handle 3D part of linear regession, I will try to connect it to api so that we can procced with frontend part of linear regession.
 
->>>>>>> 67047bc2b314dc0918d9b278beefd54bfe726234:model/Todo.txt
