@@ -29,15 +29,14 @@ class Polynomial_Regression:
 
       if i<50 or i%10 == 0: # only taking 1 frame out of 10
         if self.featureColCount == 1: #2d visualization
-
-
+      
           x = self.X_train
           y = self.Y_train
           m = self.weights
           c = self.bias
           y_pred =  np.dot(x,m)  + c
 
-          x = self.orginalX_train  #for ploting we need original dataset
+          x = self.orginalX_train #for ploting we need original dataset
           x1 = 0 if x[0] > 0 else x[0]
           x2 = x[-1]
           y1 = 0 if y[0] > 0 else y[0]
