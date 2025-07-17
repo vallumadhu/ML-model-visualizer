@@ -1,0 +1,11 @@
+open the terminal and run the following commands
+
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+
+
+and if you download any new libraries please don't forget to run the following commands
+"pip freeze > requirements.txt"
+this command will update the requirements.txt file, so that other users can also download
+the libraries you have.
