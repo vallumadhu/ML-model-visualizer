@@ -84,7 +84,8 @@ async def polynomial_regression(dataset:UploadFile,degree:int=Query(default=2,gt
     if dataFrame is None or dataFrame.empty:
         raise HTTPException(status_code=400,detail="file format not supported") 
 
-    X,Y = df_to_X_Y(dataFrame)    
+    X,Y = df_to_X_Y(dataFrame)
+    #data standardization is done inside the mode code as x^9 (i.e hight degree) will make values explode again   
 
     model = Polynomial_Regression(degree)
     model.fit(X,Y.values)
